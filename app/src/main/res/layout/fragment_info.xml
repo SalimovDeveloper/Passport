@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".fragments.InfoFragment">
+
+    <ImageView
+        android:id="@+id/image_info"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:src="@drawable/image_add"
+        android:paddingTop="30dp"
+        android:contentDescription="@string/todo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/ism"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/info_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/ism"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="25sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/familiya"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/info_surname"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/familiya"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="25sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/seria_raqami"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/info_seria"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/seria_raqami"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="25sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/tug_ilgan_sana"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/info_brithday"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/ism"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="25sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="40dp"
+        >
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_close"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/close"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textStyle="normal"
+            android:backgroundTint="#0288D1"
+            app:cornerRadius="30dp"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

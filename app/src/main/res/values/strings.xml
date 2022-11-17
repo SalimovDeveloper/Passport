@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Passport</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="todo">TODO</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="date_of_birth">date of birth</string>
+    <string name="save">Save</string>
+    <string name="ism">Ism:</string>
+    <string name="familiya">Familiya:</string>
+    <string name="seria_raqami">Seria Raqami:</string>
+    <string name="tug_ilgan_sana">Tug\'ilgan Sana</string>
+    <string name="close">Close</string>
+</resources>
